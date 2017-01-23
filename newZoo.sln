@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18FA19F3-03AB-477B-8169-C625E00864AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D07F68C8-7FAB-4DB6-BFE3-D7A1DD067B67}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "newZoo", "src\newZoo\newZoo.xproj", "{A86CB633-517D-4203-B087-B78834076FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86CB633-517D-4203-B087-B78834076FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86CB633-517D-4203-B087-B78834076FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86CB633-517D-4203-B087-B78834076FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86CB633-517D-4203-B087-B78834076FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A86CB633-517D-4203-B087-B78834076FDB} = {18FA19F3-03AB-477B-8169-C625E00864AC}
+	EndGlobalSection
+EndGlobal
